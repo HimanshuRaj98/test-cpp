@@ -15,3 +15,15 @@ int main() {
     cout << "The factorial of " << n << " is " << factorial(n) << endl;
     return 0;
 }
+
+/* ANOTHER METHOD
+
+int factorial(int n){
+    int result = 1;
+    for(int i = 1; i<=n; i++){
+        result = result * i;
+    }
+    return result;
+}
+
+*/
