@@ -35,7 +35,7 @@ int main()
             winners.insert(it->first);
         }
     }
-
+//Comparison 
     if (winners.size() > 1)
     {
         player2score.clear();
