@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//Time stamp
 int main() {
   int d, m, y;
   cout << "Enter today's date in the format: DD MM YYYY\n";
