@@ -2,7 +2,9 @@
 #include <vector>
 #include <string>
 using namespace std;
- 
+// Function to find all possible combinations of words formed by replacing
+// given positive numbers with the corresponding character of the English alphabet
+
 void recur(vector<int> const &digits, int i, string str)
 {
     int n = digits.size();
